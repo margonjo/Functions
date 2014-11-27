@@ -28,6 +28,7 @@ def get_work_details():
 def output_pay(total):
     print(total)
 
+
 def calculate_pay():
     hours,pay = get_work_details()
     total = calculate_total_pay(hours,pay)
